@@ -31,7 +31,7 @@ func (r *Resp) readLine() (line []byte, n int, err error) {
 		}
 		n += 1
 		line = append(line, b)
-		// stop reading when 2 bytes are readed and last second byte is \r
+		// stop reading when 2 bytes are read and last second byte is \r
 		if len(line) >= 2 && line[len(line)-2] == '\r' {
 			break
 		}

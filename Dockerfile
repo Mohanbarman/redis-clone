@@ -7,9 +7,9 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o ./bin/go-redis .
+RUN go build -o ./bin/breezedb .
 
 EXPOSE $PORT
 
-CMD "bin/go-redis" $PORT
+CMD "bin/breezedb" $PORT
 

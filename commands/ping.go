@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/Mohanbarman/go-redis/resp"
+	"github.com/Mohanbarman/breezedb/resp"
 )
 
 func ping(args []resp.Value, options Options) resp.Value {

@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/Mohanbarman/go-redis/aof"
-	"github.com/Mohanbarman/go-redis/commands"
-	"github.com/Mohanbarman/go-redis/resp"
+	"github.com/Mohanbarman/breezedb/aof"
+	"github.com/Mohanbarman/breezedb/commands"
+	"github.com/Mohanbarman/breezedb/resp"
 	"net"
 	"os"
 	"strings"

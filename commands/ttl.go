@@ -3,7 +3,7 @@ package commands
 import (
 	"time"
 
-	"github.com/Mohanbarman/go-redis/resp"
+	"github.com/Mohanbarman/breezedb/resp"
 )
 
 func ttl(args []resp.Value, options Options) resp.Value {

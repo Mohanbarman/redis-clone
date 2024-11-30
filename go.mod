@@ -1,3 +1,3 @@
-module github.com/Mohanbarman/go-redis
+module github.com/Mohanbarman/breezedb
 
 go 1.20
